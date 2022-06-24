@@ -206,13 +206,14 @@ img {
 
       /* section benefits */
 .benefits-title {
-  padding-top: 94px;
   display: flex;
+  
   color: var(--paragraph-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-align:left;
 }
 .benefits-item {
   width: 270px;
@@ -231,12 +232,19 @@ img {
   text-transform: uppercase;
 }
 
-.benefits-text .benefits-text {
+.benefits-text {
+  padding-top: 10px;
+  /* margin-right: 30px; */
+  
   color: var(--paragraph-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.benefits-text:last-child {
+  margin-right: 0;
+}
+
      /* section works */
 .work-list {
   display: flex;
