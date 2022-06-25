@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="container site-navigation">
         <nav class="main-nav">
           <a class="logo link" href="/index.html">
@@ -32,7 +32,7 @@
               <a class="link" href="./index.html">Студия</a>
             </li>
             <li class="nav-item">
-              <a class="link current" href="#">Портфолио</a>
+              <a class="link current" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="nav-item"><a class="link" href="">Контакты</a></li>
           </ul>
@@ -52,9 +52,9 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <h1 hidden>коллекция наших работ</h1>
-        <div class="buttons-nav">
+      <section class="section">
+        <div class="container">
+          <h1 class="not-visible">коллекция наших работ</h1>
           <ul class="buttons list">
             <li class="button-item">
               <button class="button active" type="button">Все</button>
@@ -72,21 +72,17 @@
               <button class="button" type="button">Маркетинг</button>
             </li>
           </ul>
-        </div>
-        <div class="collection">
           <ul class="portfolio list">
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <div class="card-thunmb">
-                    <img
-                      src="./images/technokriak.jpg"
-                      alt="образец фото сотрудников"
-                      width="370"
-                      height="294"
-                    />
-                  </div>
-                </article>
+                <div class="card-thunmb">
+                  <img
+                    src="./images/technokriak.jpg"
+                    alt="образец фото сотрудников"
+                    width="370"
+                    height="294"
+                  />
+                </div>
                 <div class="card-text">
                   <h2 class="portfolio-menu">Технокряк</h2>
                   <p class="portfolio-selection">Веб-сайт</p>
@@ -95,14 +91,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/poster.jpg"
-                    alt="постер два баскетболиста"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/poster.jpg"
+                  alt="постер два баскетболиста"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">
                     Постер New Orlean vs Golden Star
@@ -113,14 +107,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/restaurant.jpg"
-                    alt="реклама ресторана"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/restaurant.jpg"
+                  alt="реклама ресторана"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Ресторан Seafood</h2>
                   <p class="portfolio-selection">Приложение</p>
@@ -129,14 +121,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/projectprime.jpg"
-                    alt="наушики"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/projectprime.jpg"
+                  alt="наушики"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Проект Prime</h2>
                   <p class="portfolio-selection">Маркетинг</p>
@@ -145,14 +135,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/projectboxes.jpg"
-                    alt="две коробки"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/projectboxes.jpg"
+                  alt="две коробки"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Проект Boxes</h2>
                   <p class="portfolio-selection">Приложение</p>
@@ -161,14 +149,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/inspiration.jpg"
-                    alt="монитор с изображением"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/inspiration.jpg"
+                  alt="монитор с изображением"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Inspiration has no Borders</h2>
                   <p class="portfolio-selection">Веб-сайт</p>
@@ -177,14 +163,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/journal.jpg"
-                    alt="открытый журнал"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/journal.jpg"
+                  alt="открытый журнал"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Издание Limited Edition</h2>
                   <p class="portfolio-selection">Дизайн</p>
@@ -193,14 +177,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/projectlab.jpg"
-                    alt="бирки бумажные"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/projectlab.jpg"
+                  alt="бирки бумажные"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Проект LAB</h2>
                   <p class="portfolio-selection">Маркетинг</p>
@@ -209,14 +191,12 @@
             </li>
             <li class="item">
               <a class="portfolio-link" href="#">
-                <article class="card">
-                  <img
-                    src="./images/growingbusiness.jpg"
-                    alt="работа на лэптопе"
-                    width="370"
-                    height="294"
-                  />
-                </article>
+                <img
+                  src="./images/growingbusiness.jpg"
+                  alt="работа на лэптопе"
+                  width="370"
+                  height="294"
+                />
                 <div class="card-text">
                   <h2 class="portfolio-menu">Growing Business</h2>
                   <p class="portfolio-selection">Приложение</p>
@@ -225,14 +205,14 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </main>
-    <footer style="background-color: #2f303a">
-      <div class="container footer">
+    <footer class="footer">
+      <div class="container">
         <a class="logo-footer link" href="/index.html">
           <span>Web</span><span class="logo-light">Studio</span></a
         >
-        <address style="font-style: normal">
+        <address class="address">
           <ul class="address-footer list link">
             <li class="footer-add">
               <a class="footer-main link" href="#">
