@@ -158,10 +158,6 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  visibility: hidden;
-}
-.not-visible {
-  visibility: hidden;
 }
 
 /*section hero */
@@ -210,6 +206,19 @@ img {
 }
 
 /* section benefits */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .benefits-list {
   display: flex;
 }
@@ -387,8 +396,6 @@ address {
   text-decoration: none;
 }
 .portfolio-menu {
-  margin-top: 20px;
-
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
